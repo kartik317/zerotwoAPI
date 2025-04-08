@@ -23,18 +23,44 @@ const images = [
   {
     id: 2,
     title: "zero two 2",
-    url: "https://i.postimg.cc/m2yMqpyk/my-Zerotwo.jpg"
+    url: "https://i.postimg.cc/RVw5zKWN/zerotwo.png"
   },
   {
     id: 3,
     title: "zero two 3",
-    url: "https://i.postimg.cc/W4Lvk8xm/z2.jpg"
+    url: "https://i.postimg.cc/G3x3qpF8/1744106205462.jpg"
   },
   {
-    id: 4,
+    id: 4,  
     title: "zero two 4",
-    url: "https://i.postimg.cc/RVw5zKWN/zerotwo.png"
-  }
+    url: "https://i.postimg.cc/ZqnyhdLM/1744106178916.jpg"
+  },
+  {
+    id: 5,
+    title: "zero two 5",
+    url: "https://i.postimg.cc/Y9jN8PVj/1744106145314.jpg"
+  },
+  {
+    id: 6,
+    title: "zero two 6",
+    url: "https://i.postimg.cc/HxT0DKFp/1744106128091.jpg"
+  },
+  {
+    id: 7,
+    title: "zero two 7",
+    url: "https://i.postimg.cc/mZYxSFyC/1744106103586.jpg"
+  },
+  {
+    id: 8,
+    title: "zero two 8",
+    url: "https://i.postimg.cc/W39NpFYd/1744106038764.jpg"
+  },
+  {
+    id: 9,
+    title: "zero two 9",
+    url: "https://i.postimg.cc/Nj4fCz88/1744106082095.jpg"
+  },
+  
 ];
 
 // Get all images
