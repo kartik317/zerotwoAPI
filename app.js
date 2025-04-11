@@ -127,8 +127,44 @@ const images = [
     id: 23,
     title: "zero two smile",
     url: "https://postimage.me/images/2025/04/11/zero-two-smile.gif"
+  },
+  {
+    id: 24,
+    title: "zero two 24",
+    url: "https://postimage.me/images/2025/04/11/1744346274898.jpg"
+  },
+  {
+    id: 25,
+    title: "zero two 25",
+    url: "https://postimage.me/images/2025/04/11/1744345972524.jpg"
+  },
+  {
+    id: 26,
+    title: "zero two 26",
+    url: "https://postimage.me/images/2025/04/11/1744345826061.jpg"
+  },
+  {
+    id: 27,
+    title: "zero two 27",
+    url: "https://postimage.me/images/2025/04/11/1744345758343.jpg"
+  },
+  {
+    id: 28,
+    title: "zero two 28",
+    url: "https://postimage.me/images/2025/04/11/1744345679183.jpg"
+  },
+  {
+    id: 29,
+    title: "zero two 29",
+    url: "https://postimage.me/images/2025/04/11/1744345665010.jpg"
+  },
+  {
+    id: 30,
+    title: "zero two 30",
+    url: "https://postimage.me/images/2025/04/11/1744345651660.jpg"
   }
 ];
+
 
 // Get all images
 app.get('/api/images', (req, res) => {
