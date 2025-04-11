@@ -12,8 +12,6 @@ app.use((req, res, next) => {
   next();
 });
 
-
-// Sample image data (replace with your actual URLs or paths)
 const images = [
   {
     id: 1,
@@ -60,7 +58,76 @@ const images = [
     title: "zero two 9",
     url: "https://i.postimg.cc/Nj4fCz88/1744106082095.jpg"
   },
-  
+  {
+    id: 10,
+    title: "zero two 10",
+    url: "https://i.postimg.cc/1744342146529.jpg"
+  },
+  {
+    id: 11,
+    title: "zero two 11",
+    url: "https://i.postimg.cc/1744342064782.jpg"
+  },
+  {
+    id: 12,
+    title: "zero two 12",
+    url: "https://i.postimg.cc/1744342004413.jpg"
+  },
+  {
+    id: 13,
+    title: "zero two 13",
+    url: "https://i.postimg.cc/1744341971826.jpg"
+  },
+  {
+    id: 14,
+    title: "zero two 14",
+    url: "https://i.postimg.cc/1744341903691.jpg"
+  },
+  {
+    id: 15,
+    title: "zero two 15",
+    url: "https://i.postimg.cc/1744341857861.jpg"
+  },
+  {
+    id: 16,
+    title: "zero two 16",
+    url: "https://i.postimg.cc/1744341840334.jpg"
+  },
+  {
+    id: 17,
+    title: "zero two 17",
+    url: "https://i.postimg.cc/1744341817868.jpg"
+  },
+  {
+    id: 18,
+    title: "zero two 18",
+    url: "https://i.postimg.cc/1744341802744.jpg"
+  },
+  {
+    id: 19,
+    title: "zero two 19",
+    url: "https://i.postimg.cc/1744340539936.jpg"
+  },
+  {
+    id: 20,
+    title: "zero two 20",
+    url: "https://i.postimg.cc/1744340523997.jpg"
+  },
+  {
+    id: 21,
+    title: "zero two 21",
+    url: "https://i.postimg.cc/1744340471108.jpg"
+  },
+  {
+    id: 22,
+    title: "zero two 22",
+    url: "https://i.postimg.cc/IMG-20250411-082542.jpg"
+  },
+  {
+    id: 23,
+    title: "zero two smile",
+    url: "https://i.postimg.cc/zero-two-smile.gif"
+  }
 ];
 
 // Get all images
