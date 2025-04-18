@@ -171,6 +171,20 @@ app.get('/api/images', (req, res) => {
   res.json(images);
 });
 
+// Get random images by count (e.g., /api/images/random/10)
+app.get('/api/images/random/:count', (req, res) => {
+  const count = parseInt(req.params.count);
+
+  if (isNaN(count) || count < 1) {
+    return res.status(400).json({ error: "Invalid count number" });
+  }
+
+  const shuffled = [...images].sort(() => 0.5 - Math.random());
+  const selected = shuffled.slice(0, count);
+
+  res.json(selected);
+});
+
 // Get single image by ID
 app.get('/api/images/:id', (req, res) => {
   const image = images.find(img => img.id === parseInt(req.params.id));
